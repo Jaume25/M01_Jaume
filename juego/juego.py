@@ -24,7 +24,7 @@ pygame.display.set_caption ("JUEGO")
 pygame_events = pygame.event.get()
 
 clock = pygame.time.Clock()
-coche = pygame.image.load("rojo.png")
+car = pygame.image.load("rojo.png")
 road = pygame.image.load("road.png")
 obstacle = pygame.image.load("azul.png")
 introImg = pygame.image.load("fondo.png")
